@@ -1,0 +1,64 @@
+h2, h3{
+    color: #f64d22;
+  }
+  
+  
+  
+  body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+  }
+  header, footer {
+      background-color: #15181f;
+      color: #f64d22;
+      text-align: center;
+      padding: 10px;
+  }
+  main {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+  }
+  section {
+      width: 70%;
+  }
+  aside {
+      width: 25%;
+      background-color: #15181f;
+      color: #f64d22;
+      padding: 10px;
+  }
+  table {
+      width: 100%;
+      border-collapse: collapse;
+  }
+  th, td {
+      border: 1px solid black;
+      padding: 10px;
+      text-align: center;
+  }
+  form {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      margin: auto;
+  }
+  input, textarea {
+      margin-bottom: 10px;
+      padding: 8px;
+      font-size: 16px;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
